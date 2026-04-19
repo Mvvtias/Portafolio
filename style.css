@@ -71,3 +71,87 @@ nav a{
     padding: 90px;
 }
 
+.sobre-mi{
+    background:#f2f2f2;
+    padding:80px 60px;
+    text-align:center;
+}
+
+.etiqueta-commit{
+    display:inline-block;
+    border:2px dashed red;
+    color:red;
+    padding:8px 18px;
+    border-radius:8px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.sobre-mi h2{
+    color:#183763;
+    font-size:50px;
+    margin:10px 0;
+}
+
+.linea{
+    width:70px;
+    height:4px;
+    background:orange;
+    margin:10px auto 25px auto;
+    border-radius:5px;
+}
+
+.subtitulo{
+    color:#6f7d8f;
+    font-size:22px;
+    margin-bottom:60px;
+}
+
+.sobre-mi-contenido{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:50px;
+    text-align:left;
+}
+
+.info-personal{
+    width:60%;
+}
+
+.info-personal p{
+    font-size:24px;
+    color:#3d4b5f;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.info-personal blockquote{
+    background:#f7f1eb;
+    border-left:5px solid orange;
+    padding:20px;
+    border-radius:8px;
+    color:#555;
+    font-style:italic;
+}
+
+.datos{
+    width:32%;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.08);
+}
+
+.datos h3{
+    color:#183763;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.datos p{
+    padding:12px 0;
+    border-bottom:1px solid #ddd;
+    font-size:22px;
+    color:#444;
+}
