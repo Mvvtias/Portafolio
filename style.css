@@ -215,27 +215,27 @@ td{
 }
 
 .html{
-    width:90%;
+    width:55%;
     background:#1f5ca8;
 }
 
 .css{
-    width:82%;
+    width:60%;
     background:#3aa26a;
 }
 
 .js{
-    width:76%;
+    width:60%;
     background:#e6953b;
 }
 
 .git{
-    width:72%;
+    width:70%;
     background:#8b61d9;
 }
 
 .react{
-    width:65%;
+    width:50%;
     background:#e24b4b;
 }
 
@@ -370,4 +370,134 @@ td{
     color:#4b5b70;
     font-size:18px;
     line-height:1.7;
+}
+
+.contacto{
+    background:#f2f2f2;
+    padding:80px 60px;
+    text-align:center;
+}
+
+.contacto h2{
+    color:#183763;
+    font-size:50px;
+    margin:10px 0;
+}
+
+.contenedor-contacto{
+    width:90%;
+    margin:50px auto 0 auto;
+    display:flex;
+    justify-content:space-between;
+    gap:35px;
+    text-align:left;
+}
+
+.formulario-contacto{
+    width:60%;
+}
+
+.fila{
+    display:flex;
+    gap:20px;
+}
+
+.campo{
+    width:50%;
+}
+
+.formulario-contacto label{
+    display:block;
+    margin-bottom:8px;
+    color:#222;
+    font-weight:bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto select,
+.formulario-contacto textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:20px;
+    border:1px solid #d5d9e2;
+    border-radius:8px;
+    background:#f7f8fc;
+    box-sizing:border-box;
+}
+
+.formulario-contacto textarea{
+    resize:none;
+}
+
+.formulario-contacto button{
+    width:100%;
+    background:#183763;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.info-contacto{
+    width:32%;
+    background:#f7f8fc;
+    padding:30px;
+    border-radius:14px;
+}
+
+.info-contacto h3{
+    color:#183763;
+    margin-bottom:20px;
+}
+
+.info-contacto p{
+    margin-bottom:18px;
+    color:#4b5b70;
+    font-size:18px;
+}
+
+.footer{
+    background:#183763;
+    color:white;
+    padding:35px 50px 20px 50px;
+}
+
+.footer-contenido{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+    padding-bottom:20px;
+}
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.footer-logo span{
+    background:orange;
+    color:white;
+    padding:10px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.redes a{
+    display:inline-block;
+    background:rgba(255,255,255,0.15);
+    color:white;
+    text-decoration:none;
+    padding:10px 12px;
+    border-radius:8px;
+    margin-left:10px;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:20px;
+    font-size:15px;
 }
