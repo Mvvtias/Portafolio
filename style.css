@@ -155,3 +155,115 @@ nav a{
     font-size:22px;
     color:#444;
 }
+
+.habilidades{
+    background:#f2f2f2;
+    padding:80px 60px;
+    text-align:center;
+}
+
+.habilidades h2{
+    color:#183763;
+    font-size:50px;
+    margin:10px 0;
+}
+
+.tabla-contenedor{
+    width:90%;
+    margin:50px auto 30px auto;
+    background:white;
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 0 12px rgba(0,0,0,0.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:left;
+}
+
+thead{
+    background:#183763;
+    color:white;
+}
+
+th{
+    padding:18px;
+    font-size:20px;
+}
+
+td{
+    padding:18px;
+    font-size:20px;
+    color:#333;
+    border-bottom:1px solid #ddd;
+}
+
+.barra{
+    width:160px;
+    height:10px;
+    background:#d9dfe8;
+    border-radius:20px;
+}
+
+.progreso{
+    height:10px;
+    border-radius:20px;
+}
+
+.html{
+    width:90%;
+    background:#1f5ca8;
+}
+
+.css{
+    width:82%;
+    background:#3aa26a;
+}
+
+.js{
+    width:76%;
+    background:#e6953b;
+}
+
+.git{
+    width:72%;
+    background:#8b61d9;
+}
+
+.react{
+    width:65%;
+    background:#e24b4b;
+}
+
+.listas-habilidades{
+    width:90%;
+    margin:30px auto 0 auto;
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    text-align:left;
+}
+
+.caja-lista{
+    width:48%;
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 0 12px rgba(0,0,0,0.06);
+}
+
+.caja-lista h3{
+    color:#183763;
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+.caja-lista ul,
+.caja-lista ol{
+    padding-left:25px;
+    color:#4b5b70;
+    line-height:2;
+    font-size:20px;
+}
