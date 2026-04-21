@@ -283,15 +283,15 @@ td{
 
 .galeria-proyectos{
     width:90%;
-    margin:50px auto 0 auto;
-    display:flex;
-    justify-content:space-between;
+    margin:50px auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
     gap:25px;
-    flex-wrap:wrap;
 }
 
+
 .tarjeta-proyecto{
-    width:31%;
+    width:100%;
     background:#f8f8f8;
     border-radius:15px;
     overflow:hidden;
